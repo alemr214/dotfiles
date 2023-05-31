@@ -82,6 +82,11 @@ nvim_lsp.cssmodules_ls.setup {
   capabilities = capabilities
 }
 
+nvim_lsp.flow.setup {
+  on_attach = on_attach,
+  capabilities = capabilities
+}
+
 nvim_lsp.lua_ls.setup {
   capabilities = capabilities,
   on_attach = function(client, bufnr)
@@ -111,19 +116,13 @@ nvim_lsp.pylsp.setup {
   capabilities = capabilities
 }
 
-nvim_lsp.sqlls.setup {
-  on_attach = on_attach,
-  filetypes = { "sql", "mysql" },
-  cmd = { "sql-language-server", "up", "--method", "stdio" },
-  capabilities = capabilities
-}
-
 nvim_lsp.tsserver.setup {
   on_attach = on_attach,
   filetypes = { "typescript", "typescriptreact", "typescript.tsx" },
   cmd = { "typescript-language-server", "--stdio" },
   capabilities = capabilities
 }
+
 
 vim.lsp.handlers["textDocument/publishDiagnostics"] = vim.lsp.with(
   vim.lsp.diagnostic.on_publish_diagnostics, {
