@@ -87,6 +87,12 @@ nvim_lsp.flow.setup {
   capabilities = capabilities
 }
 
+nvim_lsp.java_language_server.setup {
+  on_attach = on_attach,
+  filetypes = { "java" },
+  capabilities = capabilities
+}
+
 nvim_lsp.lua_ls.setup {
   capabilities = capabilities,
   on_attach = function(client, bufnr)
