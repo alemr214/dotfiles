@@ -68,9 +68,14 @@ protocol.CompletionItemKind = {
 local capabilities = require('cmp_nvim_lsp').default_capabilities()
 
 -- SERVERS SETUP LSP
+--
+--
+--
+--
+-- WEB SERVERS
 nvim_lsp.cssls.setup {
   on_attach = on_attach,
-  filetypes = { "css", "scss", "less", "sass" },
+  filetypes = { "css", "scss", "less" },
   cmd = { "vscode-css-language-server", "--stdio" },
   capabilities = capabilities
 }
@@ -82,14 +87,40 @@ nvim_lsp.cssmodules_ls.setup {
   capabilities = capabilities
 }
 
-nvim_lsp.flow.setup {
+nvim_lsp.eslint.setup {
   on_attach = on_attach,
+  filetypes = { "javascript", "javascriptreact", "javascript.jsx", "typescript", "typescriptreact", "typescript.tsx",
+    "vue", "svelte", "astro" },
+  cmd = { "vscode-eslint-language-server", "--stdio" },
   capabilities = capabilities
 }
 
-nvim_lsp.java_language_server.setup {
+nvim_lsp.html.setup {
   on_attach = on_attach,
-  filetypes = { "java" },
+  filetypes = { "html" },
+  cmd = { "vscode-html-language-server", "--stdio" },
+  capabilities = capabilities
+}
+
+nvim_lsp.tsserver.setup {
+  on_attach = on_attach,
+  filetypes = { "javascript", "javascriptreact", "javascript.jsx", "typescript", "typescriptreact", "typescript.tsx" },
+  cmd = { "typescript-language-server", "--stdio" },
+  capabilities = capabilities
+}
+
+-- Python Servers
+nvim_lsp.pylsp.setup {
+  on_attach = on_attach,
+  filetypes = { "python" },
+  cmd = { "pylsp" },
+  capabilities = capabilities
+}
+
+nvim_lsp.pyright.setup {
+  on_attach = on_attach,
+  filetypes = { "python" },
+  cmd = { "pyright-langserver", "--stdio" },
   capabilities = capabilities
 }
 
@@ -115,19 +146,6 @@ nvim_lsp.lua_ls.setup {
   },
 }
 
-nvim_lsp.pylsp.setup {
-  on_attach = on_attach,
-  filetypes = { "python" },
-  cmd = { "pylsp" },
-  capabilities = capabilities
-}
-
-nvim_lsp.tsserver.setup {
-  on_attach = on_attach,
-  filetypes = { "typescript", "typescriptreact", "typescript.tsx" },
-  cmd = { "typescript-language-server", "--stdio" },
-  capabilities = capabilities
-}
 
 
 vim.lsp.handlers["textDocument/publishDiagnostics"] = vim.lsp.with(
