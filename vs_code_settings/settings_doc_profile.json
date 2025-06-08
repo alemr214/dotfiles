@@ -1,0 +1,85 @@
+{
+    // Font size
+    "editor.fontSize": 14,
+    // Tab Size
+    "editor.tabSize": 4,
+    // Render whitespace characters
+    "editor.renderWhitespace": "all",
+    // Cursor style
+    "editor.cursorStyle": "line",
+    // Word wrap
+    "editor.wordWrap": "on",
+    // Bracket Colorization
+    "editor.bracketPairColorization.enabled": true,
+    // Show identation guides
+    "editor.guides.indentation": true,
+    // Line numbers
+    "editor.lineNumbers": "relative",
+    // Match brackets
+    "editor.matchBrackets": "always",
+    // Scrollbar vertical
+    "editor.scrollbar.vertical": "hidden",
+    // Autoformat
+    "editor.formatOnSave": true,
+    // Minimap hidden auto
+    "editor.minimap.autohide": true,
+    // Minimap size
+    "editor.minimap.scale": 2,
+    // Save file
+    "files.autoSave": "onFocusChange",
+    // Save when no errors
+    "files.autoSaveWhenNoErrors": true,
+    // Trim final newlines
+    "files.trimFinalNewlines": true,
+    // Browser to use
+    "workbench.externalBrowser": "safari",
+    // What to open in new window
+    "workbench.startupEditor": "terminal",
+    // Activity bar location
+    "workbench.activityBar.location": "top",
+    // Theme
+    "workbench.colorTheme": "Catppuccin Mocha",
+    // Icons to display
+    "workbench.iconTheme": "material-icon-theme",
+    // View status bar on Zen mode
+    "zenMode.hideStatusBar": false,
+    // View numbers on Zen mode
+    "zenMode.hideLineNumbers": false,
+    // Disable full screen Zen mode
+    "zenMode.fullScreen": false,
+    // Disable centering the layout
+    "zenMode.centerLayout": false,
+    // Type of search bar
+    "search.defaultViewMode": "tree",
+    // Use breakproints for debugger
+    "debug.allowBreakpointsEverywhere": true,
+    // Show as tree in source control
+    "scm.defaultViewMode": "tree",
+    // GitHub protocol to connect
+    "github.gitProtocol": "ssh",
+    // Python auto import enable
+    "python.analysis.autoImportCompletions": true,
+    // Python auto format strings
+    "python.analysis.autoFormatStrings": true,
+    // Add parentheses to function completions
+    "python.analysis.completeFunctionParens": true,
+    // Check types in functions and display a hint
+    "python.analysis.inlayHints.functionReturnTypes": true,
+    // Create a virtual environment
+    "python.createEnvironment.contentButton": "show",
+    // Open  and activate environment
+    "python.terminal.activateEnvInCurrentTerminal": true,
+    // Enable Pytest
+    "python.testing.pytestEnabled": true,
+    // Start a docstring into a new line
+    "autoDocstring.startOnNewLine": true,
+    // LaTeX Formatter
+    "latex-workshop.formatting.latex": "latexindent",
+    // Path to LaTeX Indent
+    "latex-workshop.formatting.latexindent.path": "/usr/bin/latexindent",
+    // Format alphabetically all entries
+    "latex-workshop.bibtex-format.sort.enabled": true,
+    // Fromat alphabetically all fields in entries
+    "latex-workshop.bibtex-fields.sort.enabled": true,
+    "vsicons.dontShowNewVersionMessage": true,
+}
