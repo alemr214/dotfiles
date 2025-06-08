@@ -1,0 +1,15 @@
+[general]
+import = ["~/.config/alacritty/solarized_dark.toml"]
+live_config_reload = true
+
+[env]
+TERM = "xterm-256color"
+
+[window]
+dynamic_title = true
+
+[font]
+normal = { family = "Hack Nerd Font", style = "mono" }
+offset =  { x = 1, y = 0 }
+size = 10.0
+
