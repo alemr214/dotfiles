@@ -20,4 +20,4 @@ brew install gcc git jupyterlab neovim node python postgresql fish fisher z tmux
 
 # Instalando los paquetes de Homebrew Casks
 echo 'Instalando paquetes: Bruno, Discord, Epic Games, Google Chrome, Iterm2, Microsoft Teams, Nvidia Geforce Now, Raspberry Pi Imager, Steam, VLC, Figma, Visual Studio Code'
-brew install --cask bruno discord epic-games google-chrome iterm2 microsoft-teams nvidia-geforce-now raspberry-pi-imager steam vlc figma visual-studio-code font-hack-nerd-font
+brew install --cask bruno discord google-chrome iterm2 microsoft-teams raspberry-pi-imager vlc figma visual-studio-code font-hack-nerd-font
