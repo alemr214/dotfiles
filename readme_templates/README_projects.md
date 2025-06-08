@@ -13,7 +13,8 @@ for notes on deploying the project on a live system.
 
 ### Prerequisites
 
-Requirements for the software and other tools to build, test and push 
+Requirements for the software and other tools to build, test and push
+
 - [Example 1](https://www.example.com)
 - [Example 2](https://www.example.com)
 
@@ -55,9 +56,9 @@ Add additional notes to deploy this on a live system
 
 ## Built With
 
-  - [Contributor Covenant](https://www.contributor-covenant.org/) - Used
+- [Contributor Covenant](https://www.contributor-covenant.org/) - Used
     for the Code of Conduct
-  - [Creative Commons](https://creativecommons.org/) - Used to choose
+- [Creative Commons](https://creativecommons.org/) - Used to choose
     the license
 
 ## Contributing
@@ -73,7 +74,7 @@ repository](https://github.com/PurpleBooth/a-good-readme-template/tags).
 
 ## Authors
 
-  - **Billie Thompson** - *Provided README Template* -
+- **Billie Thompson** - *Provided README Template* -
     [PurpleBooth](https://github.com/PurpleBooth)
 
 See also the list of
@@ -88,6 +89,6 @@ details
 
 ## Acknowledgments
 
-  - Hat tip to anyone whose code is used
-  - Inspiration
-  - etc
+- Hat tip to anyone whose code is used
+- Inspiration
+- etc
