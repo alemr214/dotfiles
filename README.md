@@ -28,3 +28,13 @@ The README templates are for projects and make a profile README, you can use fro
 The packages in the [brew_install_packages](brew_install_packages.sh) is for my personal use and automatize the process every time that I clean up a MacBook PC. With:
 
 - [Homebrew](https://brew.sh/)
+
+## Color preview
+
+If you note the colors of the files doesn't show correctly, use the below script into your terminal
+
+    dircolors -p > ~/.dircolors
+    eval "$(dircolors -b ~/.dircolors)"
+    source ~/.bashrc
+
+
