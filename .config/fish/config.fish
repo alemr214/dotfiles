@@ -24,6 +24,5 @@ if status is-interactive
     set -gx PATH ~/bin $PATH
     set -gx PATH ~/.local/bin $PATH
 
-    tmux
     clear
 end
