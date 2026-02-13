@@ -1,0 +1,85 @@
+{
+    // Font size
+    "editor.fontSize": 14,
+    // Tab Size
+    "editor.tabSize": 4,
+    // Cursor style
+    "editor.cursorStyle": "line",
+    // Word wrap
+    "editor.wordWrap": "on",
+    // Bracket Colorization
+    "editor.bracketPairColorization.enabled": true,
+    // Line numbers
+    "editor.lineNumbers": "relative",
+    // Match brackets
+    "editor.matchBrackets": "always",
+    // Scrollbar vertical
+    "editor.scrollbar.vertical": "hidden",
+    // Minimap hidden auto
+    "editor.minimap.autohide": "mouseover",
+    // Minimap size
+    "editor.minimap.scale": 2,
+    // Save when no errors
+    "files.autoSaveWhenNoErrors": true,
+    // Trim final newlines
+    "files.trimFinalNewlines": true,
+    // Browser to use
+    "workbench.externalBrowser": "safari",
+    // What to open in new window
+    "workbench.startupEditor": "terminal",
+    // Activity bar location
+    "workbench.activityBar.location": "top",
+    // Theme
+    "workbench.colorTheme": "Catppuccin Mocha",
+    // Icons to display
+    "workbench.iconTheme": "material-icon-theme",
+    // View status bar on Zen mode
+    "zenMode.hideStatusBar": false,
+    // View numbers on Zen mode
+    "zenMode.hideLineNumbers": false,
+    // Disable full screen Zen mode
+    "zenMode.fullScreen": false,
+    // Disable centering the layout
+    "zenMode.centerLayout": false,
+    // Type of search bar
+    "search.defaultViewMode": "tree",
+    // Use breakproints for debugger
+    "debug.allowBreakpointsEverywhere": true,
+    // Show as tree in source control
+    "scm.defaultViewMode": "tree",
+    // GitHub protocol to connect
+    "github.gitProtocol": "ssh",
+    // Terminal GPU acceleration
+    "terminal.integrated.gpuAcceleration": "on",
+    // Copilot assistant
+    "github.copilot.nextEditSuggestions.enabled": true,
+    // Use single quotes on jsx files
+    "prettier.jsxSingleQuote": true,
+    // Tabs as spaces with Prettier
+    "prettier.tabWidth": 4,
+    // Compile SASS to CSS
+    "liveSassCompile.settings.useNewCompiler": true,
+    // Sass compile settings
+    "liveSassCompile.settings.formats": [
+        {
+            "format": "compressed",
+            "extensionName": ".min.css",
+            "savePath": "/src/styles",
+            "savePathReplacementPairs": null
+        }
+    ],
+    // No map files for SASS
+    "liveSassCompile.settings.generateMap": false,
+    // Default formatter
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    // Format on save
+    "editor.formatOnSave": true,
+    // Extensions to ignore recommendations
+    "extensions.ignoreRecommendations": true,
+    // Disable telemetry
+    "redhat.telemetry.enabled": false,
+    // Git autofetch
+    "git.autofetch": true,
+    // No confirm sync
+    "git.confirmSync": false
+}
