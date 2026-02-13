@@ -1,0 +1,8 @@
+bierner.github-markdown-preview
+catppuccin.catppuccin-vsc
+davidanson.vscode-markdownlint
+fuzionix.file-tree-extractor
+github.copilot-chat
+ms-vscode.wordcount
+pkief.material-icon-theme
+vscodevim.vim
